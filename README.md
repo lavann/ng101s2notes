@@ -1,1 +1,19 @@
 # ng101s2notes
+
+
+# IRepository
+
+``` 
+interface IRepository<T> where T: class
+    {
+        Task<List<T>> GetAllAsync(string partition);
+
+        Task<T> GetByIdAsync(string id, string partition);
+
+        Task<T> CreateAsync(T entity);
+
+        Task<T> UpdateAsync(T entity);
+
+    }
+    
+```
