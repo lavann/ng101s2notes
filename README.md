@@ -39,8 +39,8 @@ public class Author
     }
  ```
 # Install Nuget Packages
-Install-Package Microsoft.Azure.Cosmos -Version 3.12.0
-Install-Package Swashbuckle.AspNetCore -Version 5.5.0
+* Install-Package Microsoft.Azure.Cosmos -Version 3.12.0
+* Install-Package Swashbuckle.AspNetCore -Version 5.5.0
 
 
 # IRepository
